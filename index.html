@@ -133,6 +133,9 @@
     background: rgba(0,0,200,0.03);
     line-height: 1.2rem;
   }
+  .github-corner svg {
+    fill: royalblue !important;
+  }
   </style>
   <link href="./prism.css" rel="stylesheet">
 </head>
@@ -140,12 +143,10 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
-//      coverpage: true,
-      //themeColor: "gold",
       themeColor: "black",
       maxLevel: 2,
       name: '',
-      repo: ''
+      repo: 'https://github.com/skogard/docs.rarepress.org'
     }
     document.addEventListener("DOMContentLoaded", () => {
       setTimeout(() => {
